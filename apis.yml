@@ -16,7 +16,7 @@ description: >-
   with Carlisle using standard X12 EDI transactions (850, 855, 856,
   810) over AS2/SFTP.
 type: Index
-x-type: company
+kind: company
 position: Consumer
 access: Partner
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
@@ -114,9 +114,9 @@ common:
     url: https://careers.carlisle.com/
   - type: Contact
     url: https://www.carlisle.com/contact-us/default.aspx
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://www.carlisle.com/privacy-policy/default.aspx
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://www.carlisle.com/terms-of-use/default.aspx
   - type: LinkedIn
     url: https://www.linkedin.com/company/carlisle-companies-incorporated/
