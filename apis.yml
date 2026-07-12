@@ -101,6 +101,8 @@ apis:
       - Advance ship notice to WMS systems
       - Invoice ingestion into AP automation platforms
 common:
+  - type: DomainSecurity
+    url: security/carlisle-domain-security.yml
   - type: Website
     url: https://www.carlisle.com/
   - type: Businesses
