@@ -17,9 +17,21 @@ description: >-
   810) over AS2/SFTP.
 type: Index
 kind: company
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
 position: Consumer
 access: Partner
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carlisle.png
 tags:
   - Building Envelope
   - Building Products
@@ -33,45 +45,9 @@ tags:
   - Waterproofing
   - Fortune 1000
 created: '2026-03-23'
-modified: '2026-04-23'
+modified: '2026-07-25'
 specificationVersion: '0.19'
 apis:
-  - aid: carlisle:customer-success-portal
-    name: Carlisle Customer Success Portal
-    description: >-
-      The Carlisle Customer Success Portal is the primary digital
-      channel for Carlisle Construction Materials distributors and
-      direct contractor customers across the continental United
-      States and Canada. It covers all commercial roofing brands
-      under CCM and exposes web-based access to SKU-level product
-      information, net pricing, order status, invoices, confirmations,
-      shipping notices, and packing lists. The portal is accessed at
-      customersuccesslogin.com or through individual brand sites and
-      is gated by contractor or distributor credentials.
-    humanURL: https://customersuccesslogin.com
-    tags:
-      - Building Envelope
-      - Contractor Portal
-      - Distributors
-      - Roofing
-    properties:
-      - url: https://customersuccesslogin.com
-        type: Portal
-      - url: https://www.carlisleconstructionmaterials.com/
-        type: Documentation
-    x-features:
-      - SKU catalog with descriptions, images, and UOM
-      - Customer-specific net pricing
-      - Real-time open-order tracking and ship dates
-      - Order history across CCM brands
-      - Invoice, order confirmation, ASN, and packing list retrieval
-      - Covers all CCM commercial roofing brands
-      - Available in the continental US and Canada
-    x-use-cases:
-      - Distributor self-service order management
-      - Direct contractor pricing and order tracking
-      - Accounting team invoice retrieval and reconciliation
-      - Project-level material status for roofing contractors
   - aid: carlisle:edi-trading-partner
     name: Carlisle EDI Trading Partner Integration
     description: >-
@@ -123,6 +99,8 @@ common:
     url: https://www.carlisle.com/terms-of-use/default.aspx
   - type: LinkedIn
     url: https://www.linkedin.com/company/carlisle-companies-incorporated/
+  - type: ProductPage
+    url: https://customersuccesslogin.com
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
