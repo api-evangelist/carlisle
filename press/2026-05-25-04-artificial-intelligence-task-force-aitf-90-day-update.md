@@ -1,7 +1,9 @@
 ---
 title: Artificial Intelligence Task Force (AITF) 90 Day Update
 url: https://www.dhs.gov/sites/default/files/2024-05/24_02_14_sec_signed_ai_task_force_memo_508.pdf.pdf
-date: '2026-05-25'
+published: '2024-05-24'
+date_basis: url-derived
+harvested: '2026-05-25'
 query: '"Carlisle" press release artificial intelligence'
 position: 4
 source: serpapi-google

@@ -1,7 +1,9 @@
 ---
 title: Ducker Carlisle Adds Data and AI Services to Help Clients ...
 url: https://www.prnewswire.com/news-releases/ducker-carlisle-adds-data-and-ai-services-to-help-clients-accelerate-growth-302309287.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Carlisle" press release artificial intelligence'
 position: 2
 source: serpapi-google
