@@ -100,6 +100,12 @@ apis:
       - Advance ship notice to WMS systems
       - Invoice ingestion into AP automation platforms
 common:
+  - type: Plans
+    url: plans/carlisle-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/carlisle-rate-limits.yml
+  - type: FinOps
+    url: finops/carlisle-finops.yml
   - type: DomainSecurity
     url: security/carlisle-domain-security.yml
   - type: Website
