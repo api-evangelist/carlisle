@@ -1,4 +1,4 @@
-# Carlisle Companies (carlisle)
+# Carlisle Companies
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,90 +66,101 @@
 
 Carlisle Companies Incorporated (NYSE: CSL) is a global diversified manufacturer of highly engineered building envelope products and solutions, serving commercial and residential construction, insulation, roofing, waterproofing, and specialty markets. Carlisle's primary operating segment is Carlisle Construction Materials (CCM), which includes brands such as Carlisle SynTec Systems, Hunter Panels, Henry Company, MB Technology, and WIP Industrial. Carlisle does not publish a public developer API; distributors and direct contractors transact through the Carlisle Customer Success Portal, and commercial trading partners integrate with Carlisle using standard X12 EDI transactions (850, 855, 856, 810) over AS2/SFTP.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/carlisle/refs/heads/main/apis.yml)
+**Areas:** Building Envelope · Building Products · Construction · Contractor Portal · Distributor · EDI · Insulation · Manufacturing · Roofing · Waterproofing · Fortune 1000
 
-## Scope
+## Carlisle Companies on APIs.io
 
-- **Type:** Index
-- **x-type:** company
-- **Position:** Consumer
-- **Access:** Partner
+Everything profiled for Carlisle Companies is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/carlisle/](https://apis.io/providers/carlisle/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-- Building Envelope
-- Building Products
-- Construction
-- Contractor Portal
-- Distributors
-- EDI
-- Insulation
-- Manufacturing
-- Roofing
-- Waterproofing
+- [Carlisle EDI Trading Partner Integration](https://apis.io/apis/carlisle/edi-trading-partner/) — Carlisle Construction Materials and Carlisle's other operating segments exchange purchase orders, acknowledgments, advance ship notices, and invoices with…
 
-## Overview
+### Published properties
 
-Carlisle historically operated across diverse industrial segments but in recent years divested its non-core businesses to focus on the building envelope, making CCM the dominant segment. Distributors and roofing contractors transact with Carlisle through the Customer Success Portal (customersuccesslogin.com), which consolidates SKU-level product data, net pricing, real-time order status, and transactional documents across all CCM roofing brands. Upstream supply-chain partners and national-account retailers integrate via X12 EDI - typically 850/855/856/810 - over AS2 or SFTP, onboarded through Carlisle's trading-partner team.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Features
+- [Carlisle Domain Security](https://apis.io/security/carlisle/carlisle-domain-security/)
 
-- SKU catalog with descriptions, images, and UOM
-- Customer-specific net pricing
-- Real-time open-order tracking and ship dates
-- Order history across CCM brands
-- Invoice, order confirmation, ASN, and packing list retrieval
-- Covers all CCM commercial roofing brands
-- Available in the continental US and Canada
+#### Plans and pricing (1)
 
-#### Use Cases
+Published plans, tiers and prices.
 
-- Distributor self-service order management
-- Direct contractor pricing and order tracking
-- Accounting team invoice retrieval and reconciliation
-- Project-level material status for roofing contractors
+- [Carlisle Plans Pricing](https://apis.io/plans/carlisle/carlisle-plans-pricing/)
 
-### Carlisle EDI Trading Partner Integration
-Carlisle Construction Materials and Carlisle's other operating segments exchange purchase orders, acknowledgments, advance ship notices, and invoices with distributors, retailers, and large contractors via X12 EDI. Typical transaction set usage includes 850 Purchase Order, 855 PO Acknowledgment, 856 Advance Ship Notice, and 810 Invoice over AS2 or SFTP, provisioned through Carlisle trading partner onboarding.
+#### Rate limits (1)
 
-**Human URL:** [https://www.carlisle.com/our-businesses/default.aspx](https://www.carlisle.com/our-businesses/default.aspx)
+Published request limits.
 
-#### Features
+- [Carlisle Rate Limits](https://apis.io/rate-limits/carlisle/carlisle-rate-limits/)
 
-- X12 EDI 850, 855, 856, 810 transactions
-- AS2 and SFTP connectivity
-- Distributor, retailer, and national account onboarding
-- Trading-partner-specific mapping and conformance testing
+#### FinOps (1)
 
-#### Use Cases
+What the API costs to run, by operation.
 
-- Distributor replenishment automation
-- National retailer purchase order flow
-- Advance ship notice to WMS systems
-- Invoice ingestion into AP automation platforms
+- [Carlisle Finops](https://apis.io/finops/carlisle/carlisle-finops/)
 
-## Common Properties
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.carlisle.com/)
-- [Businesses](https://www.carlisle.com/our-businesses/default.aspx)
-- [Construction Materials](https://www.carlisleconstructionmaterials.com/)
-- [SynTec Systems](https://www.carlislesyntec.com/)
-- [Investor Relations](https://ir.carlisle.com/)
-- [Careers](https://careers.carlisle.com/)
-- [Contact](https://www.carlisle.com/contact-us/default.aspx)
-- [Privacy Policy](https://www.carlisle.com/privacy-policy/default.aspx)
-- [Terms of Use](https://www.carlisle.com/terms-of-use/default.aspx)
-- [LinkedIn](https://www.linkedin.com/company/carlisle-companies-incorporated/)
+- [Terms of service](https://www.carlisle.com/terms-of-use/default.aspx)
+- [Privacy policy](https://www.carlisle.com/privacy-policy/default.aspx)
 
-## Timestamps
+## API Evangelist rating
 
-- **Created:** 2026-03-23
-- **Modified:** 2026-04-23
+**Kin Score 6.9** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Maintainers
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 7.9 |
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/carlisle/](https://apis.io/providers/carlisle/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Carlisle Companies: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/carlisle/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
